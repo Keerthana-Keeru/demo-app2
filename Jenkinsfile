@@ -10,7 +10,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'master', url:'https://github.com/MdZain93/my-app.git',
-                credentialsId: 'github-token'
+                credentialsId: 'Docker_hub'
             }
         }
 
